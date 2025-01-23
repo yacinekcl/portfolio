@@ -10,7 +10,7 @@ body {
             color: white;
             display: flex;
             justify-content: center;
-            padding: 1rem;
+          /*  padding: 1rem; */
             position: sticky;
             top: 0;
 
@@ -21,7 +21,7 @@ body {
             text-decoration: none;
             margin: 0 15px;
             transition: color 0.3s ease;
-		display: flex;
+		/* display: flex; */
         }
 
         .navbar-item:hover {
@@ -103,4 +103,9 @@ body {
             border-color: rgb(221, 193, 157);;
             outline: none;
             box-shadow: 0 0 4px burlywood;
+        }
+        ul, ol {
+            list-style-type: none; /* Removes bullet points or numbers */
+            padding: 0; /* Removes padding from the list */
+            margin: 0; /* Optional: Removes margin for a cleaner look */
         }

@@ -8,16 +8,35 @@
 	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar">
+   <!-- <nav class="navbar">
         <a href="#about" class="navbar-item">About</a>
         <a href="#resume" class="navbar-item">Resume</a>
         <a href="#contact" class="navbar-item">Contact</a>
-    </nav>
+    </nav> -->
+    
+        <!-- navbar -->
+    <nav class="fixed-top navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="HTML5.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          </a>
+          <!-- Add a class to the ul and use Bootstrap classes for horizontal alignment -->
+          
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row list-unstyled">
+            <!-- Bootstrap requires 'nav-link' on <a> for styling -->
+            <li><a href="index.html" class="nav-link px-2">Home</a></li>
+            <li><a href="#about" class="nav-link px-2">About</a></li>
+            <li><a href="#resume" class="nav-link px-2">Resume</a></li>
+            <li><a href="#contact" class="nav-link px-2">Contact</a></li>
+          </ul> 
+        </div>
+      </nav>
+      
 
-
+      <!--video-->
     <div id="video" class="video">
 
-        <iframe width="427" height="240" src="https://www.youtube.com/embed/DVllUzJGVMA" 
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/DVllUzJGVMA" 
         title="Découvrir le Développement Web" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
          referrerpolicy="strict-origin-when-cross-origin" 
@@ -25,10 +44,16 @@
 
 
     </div>
-
+    <!--main page-->
     <div id="about" class="section">
         <h1>About Me</h1>
         <p>Welcome to my portfolio. Here you'll learn a bit about who I am.</p>
+        <ul>
+            <li>First Name: Yacine</li>
+            <li>Last Name: Kecili </li>
+            <li>Age: 23 years</li>
+            <li>Education: currently studying web development at INSIM</li>
+        </ul>
     </div>
 
     <div id="resume" class="section">
@@ -64,5 +89,7 @@
         </p>
     
 	</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
 </body>
 </html>
