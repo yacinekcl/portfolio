@@ -96,15 +96,16 @@ body {
 
          .button {
             margin: 20px;
-            background-color: rgb(47, 148, 98);
+            background-color: rgb(42, 131, 86);
             border-radius: 5px;
             padding: 10px 18px;
             border: none;
+            color: white;
          }
 
         button:hover{
-            background-color: rgb(42, 131, 86);
-            color: white;
+            background-color: rgb(47, 148, 98);
+            
         }
         textarea {
             width: 60%;
